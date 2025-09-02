@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-antenas",
+  "version": "1.0.0",
+  "description": "Monitor de datos en tiempo real desde Arduino con LoRa y Node.js",
+  "main": "dataGatheringJS.js",
+  "scripts": {
+    "start": "node dataGatheringJS.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "serialport": "^10.5.0",
+    "socket.io": "^4.7.2"
+  }
+}
